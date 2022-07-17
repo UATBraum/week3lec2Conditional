@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags 
+Sam Smith
+samsmit1@uat.edu-->
+<html>
+
+<head>
+    <script src="code.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>
+        Sam UAT Space Page
+    </title>
+</head>
+
+<body>
+    <!--Table to hold UAT Space Logo and header text-->
+    <table id="uatLogo">
+        <!--First row contains logo-->
+        <tr>
+            <td>
+                <img src="UATspacelogo.jpg">
+            </td>
+
+        </tr>
+        <!--Second row contains Title of space program-->
+        <tr>
+            <td>
+                <h1>
+                    UAT Space Program
+                </h1>
+            </td>
+        </tr>
+    </table>
+
+    <!--Table for Countdown Timer-->
+    <table id="countdownTimer">
+        <!--Countdown timer title-->
+        <tr>
+            <td>
+                <h2>Countdown Timer</h2>
+            </td>
+        </tr>
+        <!--Status of Current Coutdown timer-->
+        <tr>
+            <td>
+                <div id="countdownStatus">Timer Status</div><br><br><br>
+                <button onclick="blastoffTimerV2();" class="button">Start</button>
+                <button class="button">Stop</button>
+            </td>
+        </tr>
+        <br>
+    </table>
+
+    <!--
+        Four our craps on html side we need:
+        1) button to play craps
+        2) Crap status line
+        3) Header saying craps played here
+
+        the story of our craps game...
+        At least 3-4 sentances
+
+        Interstellar warp travel can be taxing on the mind and body.
+        Notcing the toll on the crews body Captain Gallahorn instructed the on board Tech Priest 
+        to run a craps game in the mess hall every other day. Moral has improved significatly since its
+        implimetation
+        -->
+    <table id="crapsTable">
+        <!--Craps table Title-->
+        <tr>
+            <td>
+                <h2>Please try your hand at Craps!</h2>
+            </td>
+        </tr>
+        <!--Craps Victory Status-->
+        <tr>
+            <td>
+                <div id="crapsStatus">Craps Status</div>
+            </td>
+        </tr>
+        <!--Craps Play button-->
+        <tr>
+            <td>
+                <button onclick="playCraps();" class="button">Play Craps</button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
